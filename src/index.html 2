@@ -5,7 +5,7 @@
         <title>Основа</title>
     </head>
     <body>
-    <section class="conteiner">
+    <section class="container">
         <div>
             <h1> Заголовок 1</h1>
             <ul>
@@ -19,7 +19,7 @@
             <img src="">
         </div>
     </section>  
-    <section class="conteiner">
+    <section class="container">
         <section >
         <div>
         <h1>Заголовок 2</h1>
@@ -43,7 +43,7 @@
             
         </ul>
     </section>
-    <section class="conteiner">
+    <section class="container">
         <h1> Загодовок4</h1>
         <ul>
             <li>
@@ -80,7 +80,7 @@
         </ul> 
         
     </section>
-    <section class="conteiner">
+    <section class="container">
         <h1>Заголовок5</h1>
         <ul>
                 <li>
@@ -118,7 +118,7 @@
             
 
     </section>
-    <section class="conteiner" >
+    <section class="container" >
         <h1>Заголовок 6</h1>
         <div>
             <header> Наименование 1 </header>
@@ -166,7 +166,7 @@
             <input type="button" value="Bay">
         </div>
     </section>  
-    <section class="conteiner">
+    <section class="container">
         <h1>Заголовок 7</h1>
         <main>
         <form>
