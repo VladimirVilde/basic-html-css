@@ -1,3 +1,31 @@
-body{
-    background-color: red;
+body {}
+
+.container {
+    width: 976px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.section {}
+
+.section--header {
+    background-color: #445162;
+}
+
+.section--about {}
+
+.section--dignity {
+    background-color: #f5f5f5;
+}
+
+.section--screenshots {}
+
+.section--reviews {
+    background-color: #f5f5f5;
+}
+
+.section--buy {}
+
+.section--contacts {
+    background-color: #445162;
 }
