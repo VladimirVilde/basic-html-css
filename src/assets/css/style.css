@@ -1,15 +1,52 @@
 body {}
 
+h1 {
+    font-size: 60px;
+}
+
 .container {
     width: 976px;
     margin: 0 auto;
     padding: 0 16px;
 }
 
+.clearfix::before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 .section {}
 
 .section--header {
     background-color: #445162;
+    color:#fff;
+    padding-bottom: 55px;
+}
+
+.section--header .container {
+display:flex;
+justify-content: space-between;
+}
+
+.check-list {
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.check-list__item{}
+
+
+.check-list__item:not(:last-child) {margin-bottom: 12px;}
+
+.check-list__item img{
+margin-right: 10px;
+}
+
+.section--header .container>div:last-child {
+padding-top: 54px;
 }
 
 .section--about {}
@@ -28,4 +65,5 @@ body {}
 
 .section--contacts {
     background-color: #445162;
+    color:#fff;
 }
