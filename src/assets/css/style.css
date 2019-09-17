@@ -1,11 +1,18 @@
-body {}
+body {
+
+}
+
 /***************************************section 1****************************************/
 h1 {
     font-size: 45px;
+    font-family: 'Franklin Gothic Medium'
 }
 
 h2 {
-    font-size: 22px;  
+    font-size: 22px; 
+    font-family: Arial; 
+    text-align: center;
+    
 }
 
 img {
@@ -16,6 +23,7 @@ max-width: 100%;
     width:100%;
     margin: 0 auto;
     padding: 0 16px;
+
 }
 
 .clearfix::before {
@@ -46,7 +54,9 @@ justify-content: space-between;
 
 .check-list__item {}
 
-.check-list__item:not(:last-child) {margin-bottom: 15px;}
+.check-list__item:not(:last-child) {
+    margin-bottom: 15px;
+}
 
 .check-list__item img{
 margin-right: 10px;
@@ -58,15 +68,20 @@ padding-top: 42px;
 /********************************************************section 2***************************************************/
 .section--about{
     background-color:#fff;
-    color: #000000;
+    color: #445162;
     padding-bottom: 55px;  
     padding-top: 26px;
+}
+
+.section--about .title {
+    text-align: left;
 }
 
 .section--about .container {
     display:flex;
     justify-content: space-between;   
 }
+
 
 p {
     font-size: 15px;
@@ -90,7 +105,35 @@ p:not(:last-child){
 /********************************************************section 3***************************************************/
 .section--dignity {
     background-color: #f5f5f5;
+    color: #445162;
+    padding-bottom: 55px; 
+    padding-top: 30px;
 }
+
+.cross .container {
+    display:flex;
+    justify-content: space-between;   
+}
+
+
+.cross img{
+
+  background-color: #445162;
+}
+
+.cross li {
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 12px;
+}
+
+.cross li:not(:nth-child(4)):not(:nth-child(5)):not(:last-child) .container {
+    
+}
+
+
 /********************************************************section 4***************************************************/
 .section--screenshots {}
 
