@@ -52,8 +52,6 @@ justify-content: space-between;
     padding-top: 12px;
 }
 
-.check-list__item {}
-
 .check-list__item:not(:last-child) {
     margin-bottom: 15px;
 }
@@ -119,6 +117,8 @@ p:not(:last-child){
 .cross img{
 
   background-color: #445162;
+ float: left;
+  margin: 10px;
 }
 
 .cross li {
@@ -127,12 +127,16 @@ p:not(:last-child){
     padding: 0;
     margin: 0;
     padding-top: 12px;
+    float: right;
 }
-
-.cross li:not(:nth-child(4)):not(:nth-child(5)):not(:last-child) .container {
-    
-}
-
+.columns {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+  }
 
 /********************************************************section 4***************************************************/
 .section--screenshots {}
