@@ -128,18 +128,21 @@ p:not(:last-child){
     margin: 0;
     padding-top: 12px;
     float: right;
+    fb
 }
-.columns {
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
-  }
+
+  .dignity-list__item {
+    display: flex;
+    justify-content: space-between; 
+}
 
 /********************************************************section 4***************************************************/
 .section--screenshots {}
+
+.title-list__item {
+    display: flex;
+    justify-content: space-between; 
+}
 
 /********************************************************section 5***************************************************/
 .section--reviews {
@@ -148,10 +151,20 @@ p:not(:last-child){
 /********************************************************section 6***************************************************/
 .section--buy {}
 
+.Lux-list__item {
+    display: flex;
+    justify-content: space-between;
+}
+
 /********************************************************section 7***************************************************/
 .section--contacts {
     background-color: #445162;
     color:#fff;
+}
+
+.contact-list__item {
+    display: flex;
+    justify-content: space-between; 
 }
 
 /******************************************media*****************************************/
