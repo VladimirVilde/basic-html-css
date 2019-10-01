@@ -302,7 +302,7 @@ p:not(:last-child) {
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
-    margin-left: 150px;
+    margin-left: 130px;
 
 }
 
@@ -310,12 +310,12 @@ p:not(:last-child) {
 
     width: 479px;
     height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border: 0px;
     border-radius: 5px;
     display: block;
-    padding: 0px 11px;
-    font-size: 20px;
+    padding: 0px 10px;
+    font-size: 18px;
 
 }
 
@@ -323,44 +323,87 @@ p:not(:last-child) {
 
     width: 479px;
     height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border: 0px;
     border-radius: 5px;
     display: block;
-    padding: 0px 11px;
-    font-size: 20px;
+    padding: 0px 10px;
+    font-size: 18px;
 
 }
 
 #massage {
 
     width: 479px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border: 0px;
     border-radius: 5px;
     display: block;
-    padding: 0px 11px;
-    font-size: 20px;
+    padding: 0px 10px;
+    font-size: 18px;
 }
 
 .send {
-
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
     color: #445162;
     background-color: #fff;
-    width: 100px;
+    width: 120px;
     height: 40px;
     border: none;
     border-radius: 5px;
-    margin-left: 200px;
+    margin-left: 190px;
     margin-bottom: 50px;
+
+}
+
+.contact-list {
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+    list-style: none;
+
+}
+
+.contact-list li:not(:first-child) {
+    padding-top: 15px;
+
+}
+
+.contact-list__item a {
+    text-decoration-line: none;
+    padding-bottom: 20px;
+
+}
+
+.contact-list__item span {
+    color: #bcbcbc;
+    background-color: #445162;
+    font-size: 18px;
+    padding-left: 5px;
+
+}
+
+.social-list {
+    display: flex;
+    background-color: #445162;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.social-list__item img {
+    width: 250px;
+    height: 45px;
+    margin-top: 25px;
 
 }
 
 /********************************************************footer***************************************************/
 .footer a {
-    font-size: 20px;
+    font-size: 18px;
     color: #445162;
     text-decoration-line: none;
 
