@@ -28,7 +28,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     list-style: none;
-    padding: 10px;
+    padding: 0;
     margin: 0;
     line-height: 20px;
 }
@@ -43,7 +43,7 @@ p {
 .section--header {
     background-color: #445162;
     color: #fff;
-    padding-bottom: 55px;
+    padding-bottom: 45px;
     padding-top: 10px;
 }
 
@@ -76,7 +76,7 @@ p {
 .section--about {
     background-color: #fff;
     color: #445162;
-    padding-bottom: 55px;
+    padding-bottom: 45px;
     padding-top: 26px;
 }
 
@@ -90,8 +90,9 @@ p {
 }
 
 
-p:not(:last-child) {
+.section--about p {
     padding-top: 11px;
+    padding-right: 20px;
 }
 
 .section--about .container>div:first-child {
@@ -106,7 +107,7 @@ p:not(:last-child) {
 .section--dignity {
     background-color: #f5f5f5;
     color: #445162;
-    padding-bottom: 55px;
+    padding-bottom: 25px;
     padding-top: 30px;
 }
 
@@ -138,6 +139,7 @@ p:not(:last-child) {
     padding: 0;
     margin: 0;
     padding-top: 12px;
+    padding-bottom: 10px;
     float: right;
     display: flex;
 }
@@ -152,6 +154,8 @@ p:not(:last-child) {
 /********************************************************section 4***************************************************/
 .section--screenshots {
     color: #445162;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .title-list__item {
@@ -165,7 +169,8 @@ p:not(:last-child) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-row-gap: 30px;
+
 }
 
 .title-list__item img {
@@ -175,15 +180,20 @@ p:not(:last-child) {
 
 }
 
-.title-list__item  h3{
+.container h2 {
+    padding-bottom: 10px;
+}
+
+.title-list__item h3 {
     margin: 0;
-margin-top: -4px;
-margin-bottom: 15px;
+    margin-top: -4px;
+    margin-bottom: 10px;
+
 }
 
 .title-list__item p {
     padding: 0;
-    line-height: 23px;
+    line-height: 25px;
     font-size: 18px;
 }
 
@@ -193,8 +203,8 @@ margin-bottom: 15px;
 .section--reviews {
     background-color: #f5f5f5;
     color: #445162;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 
 }
 
@@ -246,6 +256,7 @@ margin-bottom: 15px;
 /********************************************************section 6***************************************************/
 .section--buy {
     color: #445162;
+    padding-top: 30px;
 }
 
 .cards {
@@ -255,7 +266,7 @@ margin-bottom: 15px;
     margin-left: 90px;
     margin-right: 90px;
 
-   
+
 }
 
 .cards li {
@@ -265,7 +276,10 @@ margin-bottom: 15px;
 
 .title-card {
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin: 0;
 }
 
 .card {
@@ -287,8 +301,10 @@ margin-bottom: 15px;
 }
 
 .btn {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 25px;
+    text-transform: uppercase;
     color: #445162;
     background-color: #fff;
     width: 86%;
@@ -308,6 +324,13 @@ margin-bottom: 15px;
     margin-top: 50px;
 }
 
+.section--contacts h2 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    margin: 0;
+}
+
 .section--contacts .container {
 
     display: flex;
@@ -323,7 +346,7 @@ margin-bottom: 15px;
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
-    margin-left: 130px;
+    margin-left: 200px;
 
 }
 
@@ -384,6 +407,7 @@ margin-bottom: 15px;
     padding: 0;
     margin-right: 100px;
     list-style: none;
+    padding-right: 125px;
 
 }
 
@@ -401,7 +425,7 @@ margin-bottom: 15px;
 .contact-list__item span {
     color: #bcbcbc;
     background-color: #445162;
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 5px;
 
 }
@@ -423,6 +447,11 @@ margin-bottom: 15px;
 }
 
 /********************************************************footer***************************************************/
+.footer {
+    margin: 5px;
+
+}
+
 .footer a {
     font-size: 18px;
     color: #445162;
