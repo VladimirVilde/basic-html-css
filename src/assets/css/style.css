@@ -20,12 +20,14 @@ img {
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
+    margin-left: 40px;
+    
 
 }
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -38,7 +40,7 @@ p {
     display: table;
     clear: both;
 }
-
+/***************************************************************1************************************************/
 .section--header {
     background-color: #445162;
     color: #fff;
@@ -52,7 +54,7 @@ p {
 }
 
 .check-list {
-    font-size: 18px;
+    font-size: 24px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -69,6 +71,7 @@ p {
 
 .section--header .container>div:last-child {
     padding-top: 42px;
+    padding-right: 120px;
 }
 
 /********************************************************section 2***************************************************/
@@ -100,6 +103,7 @@ p {
 
 .section--about .container>div:last-child {
     padding-top: 24px;
+    padding-right: 80px;
 }
 
 /********************************************************section 3***************************************************/
@@ -110,7 +114,7 @@ p {
     padding-top: 30px;
 }
 
-.cross .container {
+.section--dignity.container {
     display: flex;
     justify-content: space-between;
 
@@ -136,20 +140,12 @@ p {
     font-size: 15px;
     list-style: none;
     padding: 0;
-    margin: 0;
+  
     padding-top: 12px;
     padding-bottom: 10px;
     float: right;
     display: flex;
 }
-
-
-.dignity-list__item {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 /********************************************************section 4***************************************************/
 .section--screenshots {
     color: #445162;
@@ -462,16 +458,27 @@ p {
 }
 
 /******************************************media*****************************************/
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .container {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    
+}
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    
+}
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+   
+}
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
 
-
-@media (max-width: 576px) {
+    
+}
+/*media (max-width: 576px) {
     .container {
         width: 100%;
     }
@@ -488,3 +495,4 @@ p {
         width: 1188px;
     }
 }
+*/
