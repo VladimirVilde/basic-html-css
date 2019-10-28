@@ -8,7 +8,6 @@ h2 {
     font-size: 30px;
     font-family: Arial;
     text-align: center;
-
 }
 
 img {
@@ -20,12 +19,10 @@ img {
     margin: 0;
     padding: 0 20px;
     flex-direction: column;
-
 }
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 .clearfix::before,
@@ -39,18 +36,18 @@ p {
 .section--header {
     background-color: #445162;
     color: #fff;
-    padding-bottom: 22px;
+    padding-bottom: 10px;
     padding-top: 5px;
 }
 
 .section--header .container {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .check-list {
-    font-size: 20px;
+    font-size: 18px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -73,55 +70,46 @@ p {
 
 .check-list__item img {
     margin-right: 10px;
-
 }
 
 .section--header .container>div:last-child {
     padding-top: 42px;
-    align-items: center;
 }
 
 /********************************************************section 2***************************************************/
 .section--about {
     background-color: #fff;
     color: #445162;
-    padding-bottom: 22px;
+    padding-bottom: 10px;
     padding-top: 10px;
-}
-
-.section--about .title {
-    text-align: left;
 }
 
 .section--about .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
 
 .section--about p {
     padding-top: 10px;
     font-size: 18px;
-
 }
 
 .section--about .container>div:last-child {
     padding-top: 10px;
-    align-items: center;
 }
 
 /********************************************************section 3***************************************************/
 .section--dignity {
     background-color: #f5f5f5;
     color: #445162;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     padding-top: 5px;
 }
 
 .section--dignity.container {
     display: flex;
     justify-content: space-between;
-
 }
 
 .cross {
@@ -131,20 +119,17 @@ p {
 }
 
 .cross img {
-
     background-color: #445162;
     float: left;
     margin: 10px;
     height: 32px;
     width: 32px;
-
 }
 
 .cross li {
     font-size: 18px;
     list-style: none;
     padding: 0;
-
     padding-top: 5px;
     padding-bottom: 10px;
     float: right;
@@ -154,8 +139,8 @@ p {
 /********************************************************section 4***************************************************/
 .section--screenshots {
     color: #445162;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .screenshots-list__item {
@@ -172,14 +157,12 @@ p {
     grid-template-columns: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 30px;
-
 }
 
 .screenshots-list__item img {
     margin-right: 10px;
     width: 200px;
     height: 150px;
-
 }
 
 .container h2 {
@@ -190,7 +173,6 @@ p {
     margin: 0;
     margin-top: -4px;
     margin-bottom: 10px;
-
 }
 
 .screenshots-list__item p {
@@ -198,16 +180,12 @@ p {
     line-height: 25px;
     font-size: 18px;
 }
-
-
-
 /********************************************************section 5***************************************************/
 .section--reviews {
     background-color: #f5f5f5;
     color: #445162;
-    padding-top: 30px;
-    padding-bottom: 20px;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .reviews-list {
@@ -234,19 +212,6 @@ p {
     font-style: italic;
 }
 
-/*.reviews-list__item p::before {
-    content: "";
-    position: absolute;
-    left: -10px;
-    top: 20px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent #ebebeb transparent transparent;
-}
-*/
-
 .reviews-list__item img {
     width: 75px;
     height: 75px;
@@ -255,13 +220,12 @@ p {
 .reviews-list__item span {
     color: #bcbcbc;
     font-style: normal;
-
 }
 
 /********************************************************section 6***************************************************/
 .section--buy {
     color: #445162;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .cards {
@@ -269,16 +233,11 @@ p {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    align-items: flex-end;
-
-
-
 }
 
 .cards li {
     padding: 3px;
     padding-right: 20px;
-
 }
 
 .title-card {
@@ -295,7 +254,6 @@ p {
     border: 2px solid #445162;
     border-radius: 6px;
     margin-bottom: 10px;
-
 }
 
 .card p {
@@ -319,7 +277,6 @@ p {
     border-radius: 5px;
     margin-left: 20px;
     margin-bottom: 20px;
-
 }
 
 /********************************************************section 7***************************************************/
@@ -361,10 +318,11 @@ p {
     font-size: 15px;
 }
 
-input.form-field{
+input.form-field {
     height: 40px;
 }
-textarea.form-field{
+
+textarea.form-field {
     padding-top: 10px;
 }
 
@@ -427,14 +385,38 @@ textarea.form-field{
 }
 
 .footer a {
+    display: flex;
+    justify-content: center;
     font-size: 10px;
     color: #445162;
     text-decoration-line: none;
-
 }
 
 /******************************************media*****************************************/
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .reviews-list__item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: left;
+}
+
+.reviews-list__item p {
+    margin-left: 10px;
+}
+    .reviews-list__item p::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #ebebeb transparent transparent;
+}
+
+}
 
 @media (min-width: 768px) {}
 
