@@ -2,6 +2,7 @@
 h1 {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 h2 {
@@ -43,7 +44,7 @@ p {
 .section--header {
     background-color: #445162;
     color: #fff;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     padding-top: 5px;
 }
 
@@ -87,7 +88,7 @@ p {
 .section--about {
     background-color: #fff;
     color: #445162;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     padding-top: 10px;
 }
 
@@ -148,7 +149,7 @@ p {
 .section--screenshots {
     color: #445162;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .screenshots-list__item {
@@ -194,7 +195,7 @@ p {
     background-color: #f5f5f5;
     color: #445162;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .reviews-list {
@@ -220,6 +221,7 @@ p {
     line-height: 20px;
     position: relative;
     font-style: italic;
+    padding: 8px;
 }
 
 .reviews-list__item img {
@@ -236,7 +238,7 @@ p {
 /********************************************************section 6***************************************************/
 .section--buy {
     color: #445162;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .cards {
@@ -299,7 +301,6 @@ p {
 .section--contacts h2 {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 30px;
     margin: 0;
 }
 
@@ -436,24 +437,145 @@ textarea.form-field {
         border-width: 10px 10px 10px 0;
         border-color: transparent #ebebeb transparent transparent;
     }
-    .card{
+
+    .card {
         width: 70%;
         margin-bottom: 20px;
     }
+
     .form-field {
         width: 350px;
     }
+
     .send {
         width: 160px;
     }
+
     .footer a {
         font-size: 15px;
     }
 
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
 
-@media (min-width: 992px) {}
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 60%;
+    }
+
+    .title-card {
+        font-size: 30px;
+    }
+
+    .form-field {
+        width: 410px;
+        font-size: 20px;
+    }
+
+    .send {
+        font-size: 20px;
+    }
+
+    .contact-list__item span {
+        font-size: 25px;
+    }
+
+    .social-list__item img {
+        width: 300px;
+        height: 55px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        text-align: left;
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 25px;
+    }
+
+    .section--header .container {
+        flex-direction: row;
+    }
+
+    .section--about .container {
+        flex-direction: row;
+    }
+
+    .section--about h2{
+        text-align: left;
+    }  
+
+    .section--about p {
+        width: 450px;
+    }
+
+    .section--about img {
+        width: 435px;
+        height: 245px;
+    }
+     
+    .cross{
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15px;
+    }
+
+    .screenshots-list{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .screenshots-list__item img{
+        margin-top: -10px;
+    }
+    .screenshots-list__item p{
+        line-height: 18px;
+    }
+
+    .reviews-list{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {
+        width: 50%;
+    }
+    
+    .btn{
+        font-size: 25px;
+    }
+
+    .section--contacts .container{
+        flex-direction: column;
+    }
+}
 
 @media (min-width: 1200px) {}
