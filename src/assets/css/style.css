@@ -574,8 +574,21 @@ textarea.form-field {
     }
 
     .section--contacts .container{
-        flex-direction: column;
+        flex-direction: row;
     }
+
+    .contact-form{
+        margin-left: 100px;
+    }
+
+    .contact-list{
+        margin-top: -100px;
+        padding-right: 50px;
+    }
+
+.footer a{
+    font-size: 20px;
+}
 }
 
 @media (min-width: 1200px) {}
