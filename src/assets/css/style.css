@@ -174,10 +174,6 @@ p {
     height: 150px;
 }
 
-.container h2 {
-    padding-bottom: 10px;
-}
-
 .screenshots-list__item h3 {
     margin: 0;
     margin-top: -4px;
@@ -516,7 +512,7 @@ textarea.form-field {
         margin-bottom: 10px;
     }
 
-    h3{
+    h3 {
         font-size: 20px;
     }
 
@@ -532,9 +528,9 @@ textarea.form-field {
         flex-direction: row;
     }
 
-    .section--about h2{
+    .section--about h2 {
         text-align: left;
-    }  
+    }
 
     .section--about p {
         width: 450px;
@@ -544,51 +540,92 @@ textarea.form-field {
         width: 435px;
         height: 245px;
     }
-     
-    .cross{
+
+    .cross {
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 15px;
     }
 
-    .screenshots-list{
+    .screenshots-list {
         grid-template-columns: 1fr 1fr;
     }
 
-    .screenshots-list__item img{
+    .screenshots-list__item img {
         margin-top: -10px;
     }
-    .screenshots-list__item p{
+
+    .screenshots-list__item p {
         line-height: 18px;
     }
 
-    .reviews-list{
+    .reviews-list {
         grid-template-columns: 1fr 1fr;
     }
 
     .card {
         width: 50%;
     }
-    
-    .btn{
+
+    .btn {
         font-size: 25px;
     }
 
-    .section--contacts .container{
+    .section--contacts .container {
         flex-direction: row;
     }
 
-    .contact-form{
+    .contact-form {
         margin-left: 100px;
     }
 
-    .contact-list{
+    .contact-list {
         margin-top: -100px;
         padding-right: 50px;
     }
 
-.footer a{
-    font-size: 20px;
-}
+    .footer a {
+        font-size: 20px;
+    }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    .section--header {
+        margin-top: 3px;
+        padding-bottom: 46px;
+    }
+
+    .section--about {
+        margin-top: 30px;
+        margin-bottom: 17px;
+    }
+
+    .section--about p {
+        width: 690px;
+    }
+
+    .section--dignity {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    .cross {
+        grid-column-gap: 20px;
+    }
+
+    .section--screenshots--title {
+        padding-bottom: 30px;
+    }
+
+    .section--screenshots h3 {
+        text-align: left;
+    }
+
+    .screenshots-list__item p {
+        line-height: 25px;
+    }
+
+}
