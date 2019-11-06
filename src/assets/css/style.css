@@ -562,8 +562,19 @@ textarea.form-field {
         grid-template-columns: 1fr 1fr;
     }
 
+    .cards {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-around;
+
+    }
+
     .card {
-        width: 50%;
+        width: 300px;
+    }
+
+    .cards li {
+        font-size: 15px;
     }
 
     .btn {
@@ -572,14 +583,20 @@ textarea.form-field {
 
     .section--contacts .container {
         flex-direction: row;
+        justify-content: center;
     }
 
     .contact-form {
         margin-left: 100px;
+        margin-right: 50px;
+    }
+
+    .send {
+        font-size: 25px;
     }
 
     .contact-list {
-        margin-top: -100px;
+        margin-top: -130px;
         padding-right: 50px;
     }
 
@@ -592,11 +609,19 @@ textarea.form-field {
     h1 {
         font-size: 45px;
     }
+    .container{
+        justify-content: space-around;
+    }
+
+    .container h2 {
+        padding-bottom: 20px;
+    }
 
     .section--header {
         margin-top: 3px;
         padding-bottom: 46px;
     }
+
 
     .section--about {
         margin-top: 30px;
@@ -614,10 +639,12 @@ textarea.form-field {
 
     .cross {
         grid-column-gap: 20px;
+        grid-row-gap: 20px;
     }
 
-    .section--screenshots--title {
-        padding-bottom: 30px;
+    .section--screenshots {
+        padding-bottom: 40px;
+
     }
 
     .section--screenshots h3 {
@@ -626,6 +653,27 @@ textarea.form-field {
 
     .screenshots-list__item p {
         line-height: 25px;
+    }
+
+    .section--reviews {
+        padding-bottom: 50px;
+
+    }
+
+    .reviews-list {
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+
+    .section--buy {
+        padding-bottom: 20px;
+    }
+    .section--contacts{
+        padding-top: 20px;
+        
+    }
+    .contact-form{
+        padding-bottom: 30px;
     }
 
 }
