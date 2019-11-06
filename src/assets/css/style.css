@@ -1,21 +1,21 @@
 /***************************************section 1****************************************/
-h1 {
+h1.title {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-h2 {
+h2.title {
     font-size: 30px;
     font-family: Arial;
     text-align: center;
 }
 
-h3 {
+h3.title {
     text-align: center;
 }
 
-img {
+.image {
     max-width: 100%;
 }
 
@@ -67,7 +67,7 @@ p {
     align-items: center;
 }
 
-.check-list__item p {
+.check-list__item .paragraf {
     padding: 0;
     margin: 0;
 }
@@ -76,7 +76,7 @@ p {
     margin-bottom: 15px;
 }
 
-.check-list__item img {
+.check-list__item .image {
     margin-right: 10px;
 }
 
@@ -98,7 +98,7 @@ p {
     align-items: center;
 }
 
-.section--about p {
+.section--about .paragraf {
     padding-top: 10px;
     font-size: 18px;
 }
@@ -126,7 +126,7 @@ p {
     padding: 0;
 }
 
-.cross img {
+.cross .image {
     background-color: #445162;
     float: left;
     margin-right: 10px;
@@ -168,19 +168,19 @@ p {
     grid-row-gap: 30px;
 }
 
-.screenshots-list__item img {
+.screenshots-list__item .image {
     margin-right: 10px;
     width: 200px;
     height: 150px;
 }
 
-.screenshots-list__item h3 {
+.screenshots-list__item h3.title {
     margin: 0;
     margin-top: -4px;
     margin-bottom: 10px;
 }
 
-.screenshots-list__item p {
+.screenshots-list__item .paragraf {
     padding-bottom: 10px;
     line-height: 25px;
     font-size: 18px;
@@ -210,7 +210,7 @@ p {
     align-items: center;
 }
 
-.reviews-list__item p {
+.reviews-list__item .paragraf {
     background-color: #ebebeb;
     border: 0px;
     border-radius: 6px;
@@ -220,13 +220,13 @@ p {
     padding: 8px;
 }
 
-.reviews-list__item img {
+.reviews-list__item .image {
     width: 120px;
     height: 120px;
     margin-bottom: 10px;
 }
 
-.reviews-list__item span {
+.reviews-list__item .quote {
     color: #bcbcbc;
     font-style: normal;
 }
@@ -244,12 +244,22 @@ p {
     align-items: center;
 }
 
-.cards li {
+.cards .standart-list__item {
     padding: 3px;
     padding-right: 20px;
 }
 
-.title-card {
+.cards .Premium-list__item {
+    padding: 3px;
+    padding-right: 20px;
+}
+
+.cards .Lux-list__item {
+    padding: 3px;
+    padding-right: 20px;
+}
+
+h3.title-card {
     text-align: center;
     font-size: 22px;
     padding-top: 14px;
@@ -265,7 +275,7 @@ p {
     margin-bottom: 10px;
 }
 
-.card p {
+.card .paragraf {
     background-color: #fff;
     color: #445162;
     padding: 20px;
@@ -294,7 +304,7 @@ p {
     margin-top: 10px;
 }
 
-.section--contacts h2 {
+.section--contacts h2.title {
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0;
@@ -365,7 +375,7 @@ textarea.form-field {
     align-items: center;
 }
 
-.contact-list__item span {
+.contact-list__item .connection {
     color: #bcbcbc;
     background-color: #445162;
     font-size: 20px;
@@ -380,7 +390,7 @@ textarea.form-field {
     list-style: none;
 }
 
-.social-list__item img {
+.social-list__item .image {
     width: 250px;
     height: 45px;
     margin-top: 25px;
@@ -413,11 +423,11 @@ textarea.form-field {
         align-items: left;
     }
 
-    .reviews-list__item p {
+    .reviews-list__item .paragraf {
         margin-left: 10px;
     }
 
-    .reviews-list__item img {
+    .reviews-list__item .image {
         width: 75px;
         height: 75px;
     }
@@ -454,15 +464,15 @@ textarea.form-field {
 }
 
 @media (min-width: 768px) {
-    h1 {
+    h1.title {
         font-size: 35px;
     }
 
-    h2 {
+    h2.title {
         font-size: 35px;
     }
 
-    h3 {
+    h3.title {
         font-size: 26px;
     }
 
@@ -479,7 +489,7 @@ textarea.form-field {
     }
 
     .title-card {
-        font-size: 30px;
+        f-3ont-size: 30px;
     }
 
     .form-field {
@@ -491,28 +501,28 @@ textarea.form-field {
         font-size: 20px;
     }
 
-    .contact-list__item span {
+    .contact-list__item .connection {
         font-size: 25px;
     }
 
-    .social-list__item img {
+    .social-list__item .image {
         width: 300px;
         height: 55px;
     }
 }
 
 @media (min-width: 992px) {
-    h1 {
+    h1.title {
         text-align: left;
         font-size: 40px;
     }
 
-    h2 {
+    h2.title {
         font-size: 38px;
         margin-bottom: 10px;
     }
 
-    h3 {
+    h3.title {
         font-size: 20px;
     }
 
@@ -528,15 +538,15 @@ textarea.form-field {
         flex-direction: row;
     }
 
-    .section--about h2 {
+    .section--about h2.title {
         text-align: left;
     }
 
-    .section--about p {
+    .section--about .paragraf {
         width: 450px;
     }
 
-    .section--about img {
+    .section--about .image {
         width: 435px;
         height: 245px;
     }
@@ -550,11 +560,11 @@ textarea.form-field {
         grid-template-columns: 1fr 1fr;
     }
 
-    .screenshots-list__item img {
+    .screenshots-list__item .image {
         margin-top: -10px;
     }
 
-    .screenshots-list__item p {
+    .screenshots-list__item .paragraf {
         line-height: 18px;
     }
 
@@ -572,7 +582,15 @@ textarea.form-field {
         width: 300px;
     }
 
-    .cards li {
+    .cards .standart-list__item {
+        font-size: 15px;
+}
+
+    .cards .Premium-list__item {
+        font-size: 15px;
+}
+
+    .cards .Lux-list__item {
         font-size: 15px;
     }
 
@@ -608,11 +626,11 @@ textarea.form-field {
     .container{
         max-width: 1200px;
     }
-    h1 {
+    h1.title {
         font-size: 45px;
     }
 
-    .container h2 {
+    .container h2.title {
         padding-bottom: 20px;
     }
 
@@ -626,7 +644,7 @@ textarea.form-field {
         margin-bottom: 17px;
     }
 
-    .section--about p {
+    .section--about .paragraf {
         width: 690px;
     }
 
@@ -645,11 +663,11 @@ textarea.form-field {
 
     }
 
-    .section--screenshots h3 {
+    .section--screenshots h3.title {
         text-align: left;
     }
 
-    .screenshots-list__item p {
+    .screenshots-list__item .paragraf {
         line-height: 25px;
     }
 
