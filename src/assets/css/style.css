@@ -566,7 +566,6 @@ textarea.form-field {
         flex-direction: row;
         align-items: flex-end;
         justify-content: space-around;
-
     }
 
     .card {
@@ -606,11 +605,11 @@ textarea.form-field {
 }
 
 @media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
     h1 {
         font-size: 45px;
-    }
-    .container{
-        justify-content: space-around;
     }
 
     .container h2 {
@@ -621,7 +620,6 @@ textarea.form-field {
         margin-top: 3px;
         padding-bottom: 46px;
     }
-
 
     .section--about {
         margin-top: 30px;
@@ -668,11 +666,13 @@ textarea.form-field {
     .section--buy {
         padding-bottom: 20px;
     }
-    .section--contacts{
+
+    .section--contacts {
         padding-top: 20px;
-        
+
     }
-    .contact-form{
+
+    .contact-form {
         padding-bottom: 30px;
     }
 
