@@ -249,12 +249,12 @@ p {
     padding-right: 20px;
 }
 
-.cards .Premium-list__item {
+.cards .premium-list__item {
     padding: 3px;
     padding-right: 20px;
 }
 
-.cards .Lux-list__item {
+.cards .lux-list__item {
     padding: 3px;
     padding-right: 20px;
 }
@@ -574,7 +574,7 @@ textarea.form-field {
 
     .cards {
         flex-direction: row;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: space-around;
     }
 
@@ -586,11 +586,11 @@ textarea.form-field {
         font-size: 15px;
 }
 
-    .cards .Premium-list__item {
+    .cards .premium-list__item {
         font-size: 15px;
 }
 
-    .cards .Lux-list__item {
+    .cards .lux-list__item {
         font-size: 15px;
     }
 
