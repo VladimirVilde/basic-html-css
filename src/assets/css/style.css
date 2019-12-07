@@ -677,3 +677,36 @@ textarea.form-field {
     }
 
 }
+
+
+.social-list .social-list__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.icon {
+    width: 44px;
+    height: 44px;
+    background-image: url(../../assets/img/social-buttons-sprite.png);
+    background-repeat: no-repeat;
+    background-size: auto 42px;
+    background-position-y: 0px;
+}
+.icon:hover {
+    background-position-y: -24px;   /* тут нужно в спрайт добавить 2ю строку с иконками и подрасчитать растояние*/
+}
+
+.icon.icon--twitter {
+    background-position-x: 0px;
+}
+.icon.icon--facebook {
+    background-position-x: -48px;
+}
+.icon.icon--indeed {
+    background-position-x: -98px;
+}
+.icon.icon--google {
+    background-position-x: -148px;
+}
+.icon.icon--youtube {
+    background-position-x: -198px;
+}
